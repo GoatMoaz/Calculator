@@ -52,7 +52,24 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
 .calc button:hover {
     background: #e0e0e0;
+}
+@media screen and ((min-width: 351px) and (max-width: 402px)) {
+   .calc button {
+       width: 75px;
+       height: 50px;
+   }
+   .main .card {
+       width: 350px;
+   }
+}
+@media screen and ((min-width: 320px) and (max-width: 350px)) {
+    .calc button {
+        width: 60px;
+        height: 50px;
+    }
+    .main .card {
+        width: 300px;
+    }
 }
